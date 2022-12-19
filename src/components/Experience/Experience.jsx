@@ -11,26 +11,26 @@ const Experience = () => {
             : false;
 
     return (
-        <section class="experience">
+        <section className="experience">
             <Header
                 scrollPercent={scrollPercent - 80 + scrollPercent}
                 onePage={onePage}
             >
                 Experience
             </Header>
-            <div class="container">
-                <div class="content">
+            <div className="container">
+                <div className="content">
                     <h3>Participant of OSK Mathematics</h3>
                     <span>2018</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <h3>
                         Public relation at 'The Power of Cobra' Road to Dies
                         Natalis SMAN 1 Cikarang Utara
                     </h3>
                     <span>2018</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <div>
                         <h3>Social Media Admin at Kean Store</h3>
                         <p>
@@ -40,11 +40,11 @@ const Experience = () => {
                     </div>
                     <span>April 2019 - July 2020</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <h3>Public relation at TCircus 2021</h3>
                     <span>April 2019 - July 2020</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <div>
                         <h3>Frontend Developer at Simplus</h3>
                         <p>
@@ -54,7 +54,7 @@ const Experience = () => {
                     </div>
                     <span>February 2022 - August 2022</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <div>
                         <h3>Software Engineer Inter at DELOS</h3>
                         <p>

@@ -11,7 +11,7 @@ const Education = () => {
             : false;
 
     return (
-        <section class="education">
+        <section className="education">
             <Header
                 scrollPercent={scrollPercent * 4}
                 reversed
@@ -19,20 +19,20 @@ const Education = () => {
             >
                 Education
             </Header>
-            <div class="container">
-                <div class="content">
+            <div className="container">
+                <div className="content">
                     <h3>SD Plus Bina Pendidikan</h3>
                     <span>2008 - 2014</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <h3>SMPIT Nurul Fajri</h3>
                     <span>2014 - 2017</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <h3>SMAN 1 Cikarang Utara</h3>
                     <span>2017 - 2020</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <div>
                         <h3>Institut Teknologi Sepuluh Nopember</h3>
                         <p>

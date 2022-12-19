@@ -11,7 +11,7 @@ const Awards = () => {
             : false;
 
     return (
-        <section class="awards">
+        <section className="awards">
             <Header
                 scrollPercent={scrollPercent * 1.3}
                 reversed
@@ -19,29 +19,29 @@ const Awards = () => {
             >
                 Awards
             </Header>
-            <div class="container">
-                <div class="content">
+            <div className="container">
+                <div className="content">
                     <div>
                         <h3>🏅 HTML dan CSS Dasar</h3>
                         <p>Hacktiv8 Indonesia</p>
                     </div>
                     <span>2022</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <div>
                         <h3>🏅 Hasil Maksimal, Usaha Minimal dengan ES6</h3>
                         <p>Hacktiv8 Indonesia</p>
                     </div>
                     <span>2022</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <div>
                         <h3>🏅 Styling Komponen React</h3>
                         <p>Hacktiv8 Indonesia</p>
                     </div>
                     <span>2022</span>
                 </div>
-                <div class="content">
+                <div className="content">
                     <div>
                         <h3>🏅 Fungsi dan Penggunaan React Native</h3>
                         <p>Hacktiv8 Indonesia</p>

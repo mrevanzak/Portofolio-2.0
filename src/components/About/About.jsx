@@ -21,7 +21,7 @@ const About = () => {
                 About Me
             </Header>
             <div className="about__container">
-                <div class="desc">
+                <div className="desc">
                     My name is Mochamad Revanza Kurniawan. I was born in Bandung
                     on 10th June 2002 but lived in Bekasi. I'm an ISTP so i'm on
                     introvert side. People with ISTP personalities enjoy having
