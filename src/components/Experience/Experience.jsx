@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "../Header";
-import useAnimate from "../Hooks";
+import useAnimate from "../../hooks/useAnimate";
 
 const Experience = () => {
     const { scrollPercent } = useAnimate(25, 50);

@@ -1,7 +1,7 @@
 import React from "react";
 import photo from "../../assets/foto.jpg";
+import useAnimate from "../../hooks/useAnimate";
 import { Header } from "../Header";
-import useAnimate from "../Hooks";
 import "./about.css";
 
 const About = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "../Header";
-import useAnimate from "../Hooks";
+import useAnimate from "../../hooks/useAnimate";
 
 const Awards = () => {
     const { scrollPercent } = useAnimate(82, 100);
